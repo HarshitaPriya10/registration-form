@@ -1,0 +1,42 @@
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(black,purple,white);
+}
+.container{
+    background-color:lightgrey;
+    padding:15px;
+    border-radius:10px;
+    width:60%;
+}
+.registration{
+    font-family:serif;
+    text-align:center;
+    font-size:50px;
+
+    border-bottom:3px dashed black;
+
+}
+ form .container2 {
+    display:flex;
+    flex-wrap:wrap
+
+}
+form .container2 .inputbox {
+    width:calc(100%/2 - 20px);
+    margin:10px;
+}
+form .container2 .inputbox input {
+    height:45px;
+    width:100%
+}
+.lastinput{
+    width:100%;
+    text-align:center;
+    font-size:25px;
+    background-color:blue;
+    color:white;
+
+}
+
